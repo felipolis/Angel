@@ -71,7 +71,7 @@ Angel is a virtual assistant made in python. Recently I've been wondering if I c
   pip install -r requirements1.txt
   pipwin install -r requirements2.txt
   ````
-* Now you can run the program: `python bot.py`
+* Now you can run the program: `python angel.py`
 
 
 ***Made by Felipe Archanjo***
