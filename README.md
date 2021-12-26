@@ -1,10 +1,10 @@
 # Angel
 
-##### About
+### About
 
 Angel is a virtual assistant made in python. Recently I've been wondering if I could make a simple virtual assistant on my own. I looked at my Alexa and wondered if it would be too hard to do this or not. I decided to accept this challenge and started coding. The first version of Anegel is complete, being composed of a limited amount of commands that can be made to her.
 
-##### Possible Commands
+### Possible Commands
 
 *"Angel, hello"*
 
@@ -46,18 +46,18 @@ Angel is a virtual assistant made in python. Recently I've been wondering if I c
 
 *"Angel, goodbye"*
 
-##### Details
+### Details
 
 * If you go to line 174 you can change your name which by default is "Felipe" (my name) so that Angel refers to you by your name, not mine.
 * Angel will only answer you if you refer to her by her name (Angel). Any phrase you speak while she is being executed by the terminal will be ignored.
 
-##### What did I use?
+### What did I use?
 
 * Python 3.9.2
 * VirtualEnv 20.4.7
 * All the other dependencies are already written in requirement1.txt and requirement2.txt
 
-##### How to use?
+### How to use?
 
 * First of all, you need python3. [Click Here](https://www.python.org/), download and install it.
 * Secondly you need to clone this repository. Go to a safe directory end type:
