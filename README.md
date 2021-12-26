@@ -42,7 +42,7 @@ Angel is a virtual assistant made in python. Recently I've been wondering if I c
 
 *"Angel, what's the weather in 'campinas'?"*
 
-*"Angel, fin location 'campinas'"*
+*"Angel, find location 'campinas'"*
 
 *"Angel, goodbye"*
 
