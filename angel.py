@@ -30,7 +30,7 @@ class VirtualAssist:
         audio_file = 'audio-' + str(r) + '.mp3'
         tts.save(audio_file)
         playsound.playsound(audio_file)
-        print(self.assist_name + ':', audio_string)
+        print(f"{self.assist_name}: {audio_string}")
         os.remove(audio_file)
 
     def there_exists(self, terms):
@@ -49,7 +49,8 @@ class VirtualAssist:
             if ask:
                 print('Recording...')
 
-            audio = self.r.listen(source)
+            audio = self.r.listen(source, phrase_time_limit=10)
+            #print("Recorded!")
 
             try:
                 self.voice_data = self.r.recognize_google(audio)
@@ -151,7 +152,10 @@ class VirtualAssist:
 
         if self.there_exists(['play']):
             term = voice_data.replace('play', '')
-            pywhatkit.playonyt(term)
+            if term == '':
+                self.engine_speak('What do you want me to play?')
+                return None
+            resultado = pywhatkit.playonyt(term)
             self.engine_speak(f'Playing {term}')
 
         if self.there_exists(['what\'s the weather in']):
