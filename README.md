@@ -64,7 +64,6 @@ Angel is a virtual assistant made in python. Recently I've been wondering if I c
 
   ````bash
   git clone git@github.com:felipolis/Angel.git
-  ```
   ````
 * After that, you need to install all the packages i've used. On your project directory, open your command prompt and type these lines:
 
